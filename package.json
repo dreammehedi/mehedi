@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This is my personal website.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./tailwindcss/input.css -o ./main.css -w"
+  },
+  "keywords": [
+    "mehedi",
+    "personal website",
+    "portfolio",
+    "personal portfolio",
+    "blog website",
+    "resume"
+  ],
+  "author": "Mehedi Massan Miraj",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}

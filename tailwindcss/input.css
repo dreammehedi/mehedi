@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1,
+  h2,
+  h3 {
+    @apply font-kanit font-extrabold;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-nunito font-semibold;
+  }
+  p {
+    @apply font-nunito text-base;
+  }
+  button {
+    @apply text-base md:text-lg px-6 py-2 rounded-full font-semibold border border-transparent transition-all duration-300 ease-linear;
+  }
+}
