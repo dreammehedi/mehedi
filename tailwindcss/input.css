@@ -14,9 +14,12 @@
     @apply font-nunito font-semibold;
   }
   p {
-    @apply font-nunito text-base;
+    @apply font-nunito text-base text-slate-400;
+  }
+  a {
+    @apply transition-all duration-300 ease-linear;
   }
   button {
-    @apply text-base md:text-lg px-6 py-2 rounded-full font-semibold border border-transparent transition-all duration-300 ease-linear;
+    @apply text-base md:text-[18px] px-6 py-2 rounded-full font-semibold border border-transparent transition-all duration-300 ease-linear;
   }
 }

@@ -18,5 +18,8 @@
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "daisyui": "^4.7.2"
   }
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="scroll-smooth" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,5 +34,897 @@
     <!-- main style -->
     <link rel="stylesheet" href="./main.css" />
   </head>
-  <body class="font-poppins"></body>
+  <body class="font-poppins">
+    <!-- header -->
+    <header
+      class="bg-[linear-gradient(to_right_bottom,rgba(49,84,44,0.2),rgba(16,71,52,0.2)),url('./images/banner.jpg')] bg-no-repeat bg-bottom bg-cover text-white"
+    >
+      <!-- navbar -->
+      <nav class="container flex justify-between items-center py-4">
+        <!-- logo -->
+        <a class="font-bold text-2xl capitalize" href="./index.html">
+          Mehedi
+        </a>
+        <!-- mobile menu -->
+        <ul
+          class="lg:hidden fixed top-0 -left-full bg-dark shadow-lg shadow-dark capitalize flex flex-col justify-center items-center space-y-4 w-1/2 h-screen"
+        >
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+        </ul>
+        <!-- desktop menu -->
+        <ul class="hidden lg:flex justify-around items-center space-x-8">
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+        </ul>
+
+        <!-- social menu -->
+        <ul
+          class="hidden lg:flex justify-around items-center space-x-8 text-[18px]"
+        >
+          <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+        </ul>
+        <!-- toggle menu -->
+        <i
+          class="lg:hidden cursor-pointer text-2xl font-bold ri-menu-fold-line"
+        ></i>
+      </nav>
+
+      <!-- banner -->
+      <div
+        class="container mt-[50px] py-10 max-w-lg flex flex-col justify-center items-center text-center space-y-4"
+      >
+        <figure class="relative border-[10px] border-white/50 p-2 rounded-full">
+          <img
+            class="w-[300px] h-[300px] object-cover rounded-full"
+            src="./images/mehedi.png"
+            alt="mehedi"
+          />
+        </figure>
+        <h1 class="text-3xl font-semibold capitalize">
+          Here I'm Mehedi Hassan Miraj.
+        </h1>
+        <h3 class="text-lg font-medium">
+          I'm a passionate <span>front-end-developer.</span>
+        </h3>
+        <div class="flex justify-center items-center gap-6">
+          <button
+            class="hover:bg-secondary hover:shadow-md hover:shadow-white bg-primary rounded-tr-none rounded-bl-none"
+          >
+            Hire Me
+          </button>
+          <button
+            class="hover:bg-secondary hover:shadow-md hover:shadow-white bg-primary rounded-tr-none rounded-bl-none"
+          >
+            Download CV <i class="ri-download-line"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- awesome service -->
+
+    <section class="py-10 md:py-16 bg-[#F8F9FA]">
+      <!-- service title -->
+      <div
+        class="container w-full md:max-w-3xl flex flex-col justify-center space-y-3 text-center"
+      >
+        <h1 class="text-3xl font-bold capitalize">Awesome Service</h1>
+        <p>
+          Obviously I'm a Web Designer. Experienced with all stages of the
+          development cycle for dynamic web projects.
+        </p>
+      </div>
+
+      <!-- awersome service -->
+      <div
+        class="container my-8 md:my-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between gap-4 md:gap-6 lg:gap-8"
+      >
+        <div
+          class="bg-white rounded-3xl p-8 shadow-md flex flex-col justify-center items-center text-center md:justify-start md:items-start md:text-left space-y-4 md:space-y-6"
+        >
+          <figure>
+            <img src="./images/web-development.png" alt="web development" />
+          </figure>
+          <h3 class="text-2xl font-semibold">Web Development</h3>
+          <p>
+            With lots of unique blocks, you can easily build a page without
+            coding.
+          </p>
+          <a class="font-medium text-primary" href="#"
+            >Read More <i class="font-medium ri-arrow-right-line"></i
+          ></a>
+        </div>
+        <div
+          class="bg-white rounded-3xl p-8 shadow-md flex flex-col justify-center items-center text-center md:justify-start md:items-start md:text-left space-y-4 md:space-y-6"
+        >
+          <figure>
+            <img src="./images/web-development.png" alt="web development" />
+          </figure>
+          <h3 class="text-2xl font-semibold">Web Development</h3>
+          <p>
+            With lots of unique blocks, you can easily build a page without
+            coding.
+          </p>
+          <a class="font-medium text-primary" href="#"
+            >Read More <i class="font-medium ri-arrow-right-line"></i
+          ></a>
+        </div>
+        <div
+          class="bg-white rounded-3xl p-8 shadow-md flex flex-col justify-center items-center text-center md:justify-start md:items-start md:text-left space-y-4 md:space-y-6"
+        >
+          <figure>
+            <img src="./images/web-development.png" alt="web development" />
+          </figure>
+          <h3 class="text-2xl font-semibold">Web Development</h3>
+          <p>
+            With lots of unique blocks, you can easily build a page without
+            coding.
+          </p>
+          <a class="font-medium text-primary" href="#"
+            >Read More <i class="font-medium ri-arrow-right-line"></i
+          ></a>
+        </div>
+        <div
+          class="bg-white rounded-3xl p-8 shadow-md flex flex-col justify-center items-center text-center md:justify-start md:items-start md:text-left space-y-4 md:space-y-6"
+        >
+          <figure>
+            <img src="./images/web-development.png" alt="web development" />
+          </figure>
+          <h3 class="text-2xl font-semibold">Web Development</h3>
+          <p>
+            With lots of unique blocks, you can easily build a page without
+            coding.
+          </p>
+          <a class="font-medium text-primary" href="#"
+            >Read More <i class="font-medium ri-arrow-right-line"></i
+          ></a>
+        </div>
+        <div
+          class="bg-white rounded-3xl p-8 shadow-md flex flex-col justify-center items-center text-center md:justify-start md:items-start md:text-left space-y-4 md:space-y-6"
+        >
+          <figure>
+            <img src="./images/web-development.png" alt="web development" />
+          </figure>
+          <h3 class="text-2xl font-semibold">Web Development</h3>
+          <p>
+            With lots of unique blocks, you can easily build a page without
+            coding.
+          </p>
+          <a class="font-medium text-primary" href="#"
+            >Read More <i class="font-medium ri-arrow-right-line"></i
+          ></a>
+        </div>
+        <div
+          class="bg-white rounded-3xl p-8 shadow-md flex flex-col justify-center items-center text-center md:justify-start md:items-start md:text-left space-y-4 md:space-y-6"
+        >
+          <figure>
+            <img src="./images/web-development.png" alt="web development" />
+          </figure>
+          <h3 class="text-2xl font-semibold">Web Development</h3>
+          <p>
+            With lots of unique blocks, you can easily build a page without
+            coding.
+          </p>
+          <a class="font-medium text-primary" href="#"
+            >Read More <i class="font-medium ri-arrow-right-line"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- work partipation -->
+    <section class="py-10 md:py-16">
+      <div class="container grid grid-cols-1 lg:grid-cols-3 items-center">
+        <!-- partipation title -->
+        <div
+          class="container w-full md:max-w-3xl flex flex-col justify-center items-center text-center lg:justify-start lg:items-start space-y-3 lg:text-left"
+        >
+          <h1 class="text-3xl font-bold capitalize">Work Partipation</h1>
+          <p>
+            Obviously I'm a Web Designer. Experienced with all stages of the
+            development cycle for dynamic web projects.
+          </p>
+          <button
+            class="hover:bg-secondary hover:shadow-lg text-white mx-auto lg:ml-0 lg:mr-auto hover:shadow-white bg-primary rounded-tr-none rounded-bl-none"
+          >
+            See More <i class="font-medium ri-arrow-right-line"></i>
+          </button>
+        </div>
+
+        <!-- work detailes -->
+        <div class="lg:col-span-2 container flex flex-col gap-20 my-8 md:my-12">
+          <div
+            class="flex flex-col lg:flex-row justify-center items-center lg:justify-start lg:items-end gap-8 border-2 border-primary/20 border-dashed p-4 lg:p-6 rounded-tl-[100px]"
+          >
+            <!-- img -->
+            <figure class="lg:relative lg:min-w-28">
+              <img
+                class="w-[80px] h-[80px] lg:absolute -bottom-16 object-cover border-4 border-primary/40 bg-slate-100 rounded-full p-6"
+                src="./images/web-designer.png"
+                alt=""
+              />
+            </figure>
+            <!-- information -->
+            <div class="flex flex-col space-y-3 text-center lg:text-left">
+              <div
+                class="flex flex-col lg:flex-row justify-center lg:justify-between text-center lg:text-left space-y-3 lg:space-y-0 items-center"
+              >
+                <div class="flex flex-col">
+                  <h4 class="text-lg font-semibold">Web Developer</h4>
+                  <h5 class="text-base">Oppo - HR Manager</h5>
+                </div>
+                <span
+                  class="px-4 py-2 bg-primary/60 rounded-md font-medium text-white text-sm"
+                  >2024 -2026</span
+                >
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                nesciunt tempora molestias quibusdam maxime laboriosam.
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex flex-col lg:flex-row justify-center items-center lg:justify-start lg:items-end gap-8 border-2 border-primary/20 border-dashed p-4 lg:p-6 rounded-br-[100px]"
+          >
+            <!-- information -->
+            <div
+              class="order-2 lg:order-1 flex flex-col space-y-3 text-center lg:text-left"
+            >
+              <div
+                class="flex flex-col lg:flex-row justify-center lg:justify-between text-center lg:text-left space-y-3 lg:space-y-0 items-center"
+              >
+                <div class="flex flex-col">
+                  <h4 class="text-lg font-semibold">Web Developer</h4>
+                  <h5 class="text-base">Oppo - HR Manager</h5>
+                </div>
+                <span
+                  class="px-4 py-2 bg-primary/60 rounded-md font-medium text-white text-sm"
+                  >2024 -2026</span
+                >
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                nesciunt tempora molestias quibusdam maxime laboriosam.
+              </p>
+            </div>
+            <!-- img -->
+            <figure class="order-1 lg:order-2 lg:relative lg:min-w-28">
+              <img
+                class="w-[80px] h-[80px] lg:absolute bottom-[6rem] object-cover border-4 border-primary/40 bg-slate-100 rounded-full p-6"
+                src="./images/web-designer.png"
+                alt=""
+              />
+            </figure>
+          </div>
+          <div
+            class="flex flex-col lg:flex-row justify-center items-center lg:justify-start lg:items-end gap-8 border-2 border-primary/20 border-dashed p-4 lg:p-6 rounded-tl-[100px]"
+          >
+            <!-- img -->
+            <figure class="lg:relative lg:min-w-28">
+              <img
+                class="w-[80px] h-[80px] lg:absolute -bottom-16 object-cover border-4 border-primary/40 bg-slate-100 rounded-full p-6"
+                src="./images/web-designer.png"
+                alt=""
+              />
+            </figure>
+            <!-- information -->
+            <div class="flex flex-col space-y-3 text-center lg:text-left">
+              <div
+                class="flex flex-col lg:flex-row justify-center lg:justify-between text-center lg:text-left space-y-3 lg:space-y-0 items-center"
+              >
+                <div class="flex flex-col">
+                  <h4 class="text-lg font-semibold">Web Developer</h4>
+                  <h5 class="text-base">Oppo - HR Manager</h5>
+                </div>
+                <span
+                  class="px-4 py-2 bg-primary/60 rounded-md font-medium text-white text-sm"
+                  >2024 -2026</span
+                >
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                nesciunt tempora molestias quibusdam maxime laboriosam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills expertise -->
+    <section class="py-10 md:py-16 bg-[#FAFAFA]">
+      <div
+        class="container grid grid-cols-1 justify-center lg:grid-cols-2 lg:justify-between itemc gap-8"
+      >
+        <!-- image -->
+        <figure class="mx-auto w-[400px] h-[400px] overflow-hidden">
+          <img
+            class="rounded-full w-[400px] h-[400px] object-cover"
+            src="./images/hassan.jpg"
+            alt="hassan"
+          />
+        </figure>
+        <!-- skills  title -->
+        <div>
+          <div
+            class="flex flex-col justify-center items-center text-center space-y-3"
+          >
+            <h1 class="text-3xl font-bold capitalize">Work Expertise</h1>
+            <p>
+              Obviously I'm a Web Designer. Experienced with all stages of the
+              development cycle for dynamic web projects.
+            </p>
+          </div>
+          <div class="mt-8 grid grid-cols-4 gap-8 justify-around items-center">
+            <figure class="max-w-20 relative cursor-pointer">
+              <img
+                class="w-20 h-20 object-cover p-4 bg-white shadow-lg rounded-tr-[35px] rounded-md"
+                src="./images/bootstrap.svg"
+                alt="bootstrap"
+              />
+              <span
+                class="absolute -top-4 -right-4 bg-[#7CA1F3] text-white rounded-xl px-2 py-1 text-sm font-normal"
+                >50%</span
+              >
+            </figure>
+            <figure class="max-w-20 relative cursor-pointer">
+              <img
+                class="w-20 h-20 object-cover p-4 bg-white shadow-lg rounded-tr-[35px] rounded-md"
+                src="./images/Angular.svg"
+                alt="bootstrap"
+              />
+              <span
+                class="absolute -top-4 -right-4 bg-[#7CA1F3] text-white rounded-xl px-2 py-1 text-sm font-normal"
+                >50%</span
+              >
+            </figure>
+            <figure class="max-w-20 relative cursor-pointer">
+              <img
+                class="w-20 h-20 object-cover p-4 bg-white shadow-lg rounded-tr-[35px] rounded-md"
+                src="./images/amazons3.svg"
+                alt="bootstrap"
+              />
+              <span
+                class="absolute -top-4 -right-4 bg-[#7CA1F3] text-white rounded-xl px-2 py-1 text-sm font-normal"
+                >50%</span
+              >
+            </figure>
+            <figure class="max-w-20 relative cursor-pointer">
+              <img
+                class="w-20 h-20 object-cover p-4 bg-white shadow-lg rounded-tr-[35px] rounded-md"
+                src="./images/android.svg"
+                alt="bootstrap"
+              />
+              <span
+                class="absolute -top-4 -right-4 bg-[#7CA1F3] text-white rounded-xl px-2 py-1 text-sm font-normal"
+                >50%</span
+              >
+            </figure>
+            <figure class="max-w-20 relative cursor-pointer">
+              <img
+                class="w-20 h-20 object-cover p-4 bg-white shadow-lg rounded-tr-[35px] rounded-md"
+                src="./images/react.svg"
+                alt="bootstrap"
+              />
+              <span
+                class="absolute -top-4 -right-4 bg-[#7CA1F3] text-white rounded-xl px-2 py-1 text-sm font-normal"
+                >50%</span
+              >
+            </figure>
+            <figure class="max-w-20 relative cursor-pointer">
+              <img
+                class="w-20 h-20 object-cover p-4 bg-white shadow-lg rounded-tr-[35px] rounded-md"
+                src="./images/post_gray_sql.svg"
+                alt="bootstrap"
+              />
+              <span
+                class="absolute -top-4 -right-4 bg-[#7CA1F3] text-white rounded-xl px-2 py-1 text-sm font-normal"
+                >50%</span
+              >
+            </figure>
+            <figure class="max-w-20 relative cursor-pointer">
+              <img
+                class="w-20 h-20 object-cover p-4 bg-white shadow-lg rounded-tr-[35px] rounded-md"
+                src="./images/nodejs-icon.svg"
+                alt="bootstrap"
+              />
+              <span
+                class="absolute -top-4 -right-4 bg-[#7CA1F3] text-white rounded-xl px-2 py-1 text-sm font-normal"
+                >50%</span
+              >
+            </figure>
+            <figure class="max-w-20 relative cursor-pointer">
+              <img
+                class="w-20 h-20 object-cover p-4 bg-white shadow-lg rounded-tr-[35px] rounded-md"
+                src="./images/mongodb.svg"
+                alt="bootstrap"
+              />
+              <span
+                class="absolute -top-4 -right-4 bg-[#7CA1F3] text-white rounded-xl px-2 py-1 text-sm font-normal"
+                >50%</span
+              >
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- my projects -->
+    <section class="py-10 md:py-16">
+      <!-- project title -->
+      <div
+        class="container w-full md:max-w-3xl flex flex-col justify-center space-y-3 text-center"
+      >
+        <h1 class="text-3xl font-bold capitalize">My Project</h1>
+        <p>
+          Obviously I'm a Web Designer. Experienced with all stages of the
+          development cycle for dynamic web projects.
+        </p>
+      </div>
+
+      <!-- project -->
+      <div
+        class="mt-12 container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-between gap-8"
+      >
+        <div class="shadow-xl rounded-3xl">
+          <a
+            href="https://dreammehedi.github.io/m-travel/"
+            class="flex flex-col space-y-4"
+            target="_blank"
+          >
+            <figure>
+              <img
+                class="w-full h-auto object-cover"
+                src="./images/m-travel.png"
+                alt="m-travel"
+              />
+            </figure>
+            <div class="p-6 flex flex-col space-y-3">
+              <h4 class="text-lg font-medium text-[#1DD100]">
+                End-to-End Travel with M Paribahan
+              </h4>
+              <p>
+                Enjoy the comfort of M Paribahan's buses which are equipped with
+                amenities like air conditioning, reclining seats, and
+                entertainment options.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="shadow-xl rounded-3xl">
+          <a
+            href="https://dreammehedi.github.io/sport/"
+            class="flex flex-col space-y-4"
+            target="_blank"
+          >
+            <figure>
+              <img
+                class="w-full h-auto object-cover"
+                src="./images/sport.png"
+                alt="sport"
+              />
+            </figure>
+            <div class="p-6 flex flex-col space-y-3">
+              <h4
+                style="
+                  background-image: linear-gradient(
+                    270deg,
+                    #22c55e 50%,
+                    #f32c46 100%
+                  );
+                  background-clip: text;
+                  -webkit-background-clip: text;
+                  color: transparent;
+                "
+                class="text-lg font-medium"
+              >
+                NEXT-GENERATION ESPORTS TEAM
+              </h4>
+              <p>
+                Seek sponsorship deals with gaming hardware brands, energy drink
+                companies, and other relevant brands. Negotiate partnerships
+                with esports organizations, gaming platforms, and event
+                organizers for exposure and support. Develop mutually beneficial
+                relationships that provide financial backing and promotional
+                opportunities.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="shadow-xl rounded-3xl">
+          <a
+            href="https://dreammehedi.github.io/mehedi-a3-hockeys/"
+            class="flex flex-col space-y-4"
+            target="_blank"
+          >
+            <figure>
+              <img
+                class="w-full h-auto object-cover"
+                src="./images/hockeys.png"
+                alt="sport"
+              />
+            </figure>
+            <div class="p-6 flex flex-col space-y-3">
+              <h4 class="text-lg font-medium text-[#FF4240]">
+                Professional Hockeys Club
+              </h4>
+              <p>
+                Hockey clubs can refer to teams or organizations that
+                participate in professional hockey leagues. Here are a few
+                notable professional hockey leagues and some well-known clubs
+                from around the world
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="shadow-xl rounded-3xl">
+          <a
+            href="https://dreammehedi.github.io/tea-house/"
+            class="flex flex-col space-y-4"
+            target="_blank"
+          >
+            <figure>
+              <img
+                class="w-full h-auto object-cover"
+                src="./images/tea-house.png"
+                alt="sport"
+              />
+            </figure>
+            <div class="p-6 flex flex-col space-y-3">
+              <h4
+                style="
+                  background-image: linear-gradient(
+                    270deg,
+                    #f00 0%,
+                    #ff8938 100%
+                  );
+                  background-clip: text;
+                  -webkit-background-clip: text;
+                  color: transparent;
+                "
+                class="text-lg font-medium"
+              >
+                It's good tea time at The Tea House
+              </h4>
+              <p>
+                Tea and Botanical Solutions Supplier Give Optimum Satisfaction
+                To Your Taste Buds.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="shadow-xl rounded-3xl">
+          <a
+            href="https://dreammehedi.github.io/dream-travel-mehedi/"
+            class="flex flex-col space-y-4"
+            target="_blank"
+          >
+            <figure>
+              <img
+                class="w-full h-auto object-cover"
+                src="./images/dream-travel.png"
+                alt="sport"
+              />
+            </figure>
+            <div class="p-6 flex flex-col space-y-3">
+              <h4 class="text-lg font-medium text-[#FF5400]">
+                Explore Your Travel
+              </h4>
+              <p>
+                Dream travel can mean different things to different people. It
+                often involves visiting a destination that holds a special place
+                in your heart or fulfilling a long-held travel aspiration.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="shadow-xl rounded-3xl">
+          <a
+            href="https://dreammehedi.github.io/architect/"
+            class="flex flex-col space-y-4"
+            target="_blank"
+          >
+            <figure>
+              <img
+                class="w-full h-auto object-cover"
+                src="./images/architect.png"
+                alt="sport"
+              />
+            </figure>
+            <div class="p-6 flex flex-col space-y-3">
+              <h4 class="text-lg font-medium text-[#FF900E]">
+                Brand New Group of Architects
+              </h4>
+              <p>
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour, or randomised words which don't look even
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="shadow-xl rounded-3xl">
+          <a
+            href="https://dreammehedi.github.io/new-year-new-me-project/"
+            class="flex flex-col space-y-4"
+            target="_blank"
+          >
+            <figure>
+              <img
+                class="w-full h-auto object-cover"
+                src="./images/new-year-new-me.png"
+                alt="sport"
+              />
+            </figure>
+            <div class="p-6 flex flex-col space-y-3">
+              <h4 class="text-lg font-medium text-dark">
+                All Thinks Are Possible If You believe
+              </h4>
+              <p>
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour, or randomised words
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Clients says -->
+    <section class="py-10 md:py-16 bg-white">
+      <!-- Clients title -->
+      <div
+        class="container w-full md:max-w-3xl flex flex-col justify-center space-y-3 text-center"
+      >
+        <h1 class="text-3xl font-bold capitalize">Clients Say</h1>
+        <p>
+          Obviously I'm a Web Designer. Experienced with all stages of the
+          development cycle for dynamic web projects.
+        </p>
+      </div>
+
+      <!-- Clients say slider -->
+
+      <div
+        class="container mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between gap-8"
+      >
+        <div
+          class="cursor-pointer rounded-3xl border border-slate-300 shadow-md p-6 flex flex-col space-y-4"
+        >
+          <figure>
+            <img
+              class="w-[100px] h-[100px] object-cover rounded-full"
+              src="./images/male-1.jpg"
+              alt="male-1"
+            />
+          </figure>
+          <h4 class="text-lg font-semibold">Ralph Edwards</h4>
+          <div class="rating rating-sm">
+            <input
+              type="radio"
+              name="rating-1"
+              class="bg-[#FFD148] mask mask-star"
+            />
+            <input
+              type="radio"
+              name="rating-1"
+              class="bg-[#FFD148] mask mask-star"
+            />
+            <input
+              type="radio"
+              name="rating-1"
+              class="bg-[#FFD148] mask mask-star"
+            />
+            <input
+              type="radio"
+              name="rating-1"
+              class="bg-[#FFD148] mask mask-star"
+              checked
+            />
+            <input
+              type="radio"
+              name="rating-1"
+              class="bg-[#FFD148] mask mask-star"
+            />
+          </div>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form
+          </p>
+        </div>
+        <div
+          class="cursor-pointer rounded-3xl border border-slate-300 shadow-md p-6 flex flex-col space-y-4"
+        >
+          <figure>
+            <img
+              class="w-[100px] h-[100px] object-cover rounded-full"
+              src="./images/female-3.jpg"
+              alt="male-1"
+            />
+          </figure>
+          <h4 class="text-lg font-semibold">Ralph Edwards</h4>
+          <div class="rating rating-sm">
+            <input
+              type="radio"
+              name="rating-1"
+              class="bg-[#FFD148] mask mask-star"
+            />
+            <input
+              type="radio"
+              name="rating-1"
+              class="bg-[#FFD148] mask mask-star"
+            />
+            <input
+              type="radio"
+              name="rating-1"
+              class="bg-[#FFD148] mask mask-star"
+            />
+            <input
+              type="radio"
+              name="rating-1"
+              class="bg-[#FFD148] mask mask-star"
+              checked
+            />
+            <input
+              type="radio"
+              name="rating-1"
+              class="bg-[#FFD148] mask mask-star"
+            />
+          </div>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact me -->
+    <section class="py-10 md:py-16 bg-[#FAFAFA]">
+      <!-- contact title -->
+      <div
+        class="container w-full md:max-w-3xl flex flex-col justify-center space-y-3 text-center"
+      >
+        <h1 class="text-3xl font-bold capitalize">Contact Me</h1>
+        <p>
+          Obviously I'm a Web Designer. Experienced with all stages of the
+          development cycle for dynamic web projects.
+        </p>
+      </div>
+
+      <!-- contact information -->
+      <div
+        class="my-10 container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between items-center gap-8"
+      >
+        <div
+          class="flex flex-col justify-center items-center text-center space-y-3"
+        >
+          <i class="text-3xl ri-phone-line"></i>
+          <h4>Phone</h4>
+          <p>
+            Promising development turmoil inclusive education transformative
+            community
+          </p>
+          <address>+152 534-468-854</address>
+        </div>
+        <div
+          class="flex flex-col justify-center items-center text-center space-y-3"
+        >
+          <i class="text-3xl ri-phone-line"></i>
+          <h4>Phone</h4>
+          <p>
+            Promising development turmoil inclusive education transformative
+            community
+          </p>
+          <address>+152 534-468-854</address>
+        </div>
+        <div
+          class="flex flex-col justify-center items-center text-center space-y-3"
+        >
+          <i class="text-3xl ri-phone-line"></i>
+          <h4>Phone</h4>
+          <p>
+            Promising development turmoil inclusive education transformative
+            community
+          </p>
+          <address>+152 534-468-854</address>
+        </div>
+      </div>
+
+      <!-- contact form -->
+      <form class="container">
+        <div class="grid grid-cols-1 lg:grid-cols-2 justify-between gap-8">
+          <div class="flex flex-col space-y-6">
+            <input
+              class="px-4 py-3 border border-slate-200 w-full outline-none text-sm rounded-3xl"
+              type="text"
+              placeholder="First name: "
+            />
+            <input
+              class="px-4 py-3 border border-slate-200 w-full outline-none text-sm rounded-3xl"
+              type="text"
+              placeholder="First name: "
+            />
+            <input
+              class="px-4 py-3 border border-slate-200 w-full outline-none text-sm rounded-3xl"
+              type="text"
+              placeholder="First name: "
+            />
+          </div>
+          <div>
+            <textarea
+              class="px-4 h-32 md:h-52 py-2 w-full lg:h-full border border-slate-200 outline-none text-sm rounded-3xl"
+              name="message"
+              id="message"
+              placeholder="Your message: "
+            ></textarea>
+          </div>
+        </div>
+        <div class="flex justify-center lg:justify-end mt-8">
+          <button
+            type="submit"
+            class="hover:bg-secondary hover:shadow-lg text-white hover:shadow-white bg-primary rounded-tr-none rounded-bl-none"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <!-- footer -->
+    <footer class="pt-10 md:pt-16 bg-white">
+      <!-- footer title -->
+      <div
+        class="container w-full md:max-w-3xl flex flex-col justify-center space-y-3 text-center"
+      >
+        <h1 class="text-3xl font-bold capitalize">Queue</h1>
+        <p>
+          Obviously I'm a Web Designer. Experienced with all stages of the
+          development cycle for dynamic web projects.
+        </p>
+        <!-- social list menu -->
+        <ul
+          class="pb-10 md:pb-16 flex justify-center items-center space-x-6 text-[18px]"
+        >
+          <a
+            class="border border-primary rounded-full w-8 h-8 flex justify-center items-center"
+            href="#"
+            ><i class="ri-facebook-circle-fill"></i
+          ></a>
+          <a
+            class="border border-primary rounded-full w-8 h-8 flex justify-center items-center"
+            href="#"
+            ><i class="ri-twitter-fill"></i></a
+          ><a
+            class="border border-primary rounded-full w-8 h-8 flex justify-center items-center"
+            href="#"
+            ><i class="ri-twitter-fill"></i></a
+          ><a
+            class="border border-primary rounded-full w-8 h-8 flex justify-center items-center"
+            href="#"
+            ><i class="ri-twitter-fill"></i></a
+          ><a
+            class="border border-primary rounded-full w-8 h-8 flex justify-center items-center"
+            href="#"
+            ><i class="ri-twitter-fill"></i
+          ></a>
+        </ul>
+      </div>
+
+      <!-- footer copyright -->
+      <div class="bg-dark text-white">
+        <p class="container text-center font-medium py-6">
+          © 2024 Queue. Design by Zoyothemes
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
